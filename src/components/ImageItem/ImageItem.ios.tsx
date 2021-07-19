@@ -73,7 +73,7 @@ const ImageItem = ({
     translateValue,
     scaleValue
   );
-  const imageStylesWithOpacity = { ...imagesStyles, opacity: imageOpacity };
+  const imageStylesWithOpacity = { ...imagesStyles, opacity: 1 };
 
   const onScrollEndDrag = useCallback(
     ({ nativeEvent }: NativeSyntheticEvent<NativeScrollEvent>) => {
