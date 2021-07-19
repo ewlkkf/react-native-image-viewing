@@ -87,7 +87,7 @@ const ImageItem = ({
     inputRange: [-SWIPE_CLOSE_OFFSET, 0, SWIPE_CLOSE_OFFSET],
     outputRange: [0.7, 1, 0.7],
   });
-  const imageStylesWithOpacity = { ...imagesStyles, opacity: imageOpacity };
+  const imageStylesWithOpacity = { ...imagesStyles, opacity: 1 };
 
   const onScrollEndDrag = ({
     nativeEvent,
